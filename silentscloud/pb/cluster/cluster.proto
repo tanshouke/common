@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package Silents.common.cluster;
 
-option go_package = "./cluster";
+option go_package = ".";
 
 message ClusterInfo{
   string ClusterEnv=1;
