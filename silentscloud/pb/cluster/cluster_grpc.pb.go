@@ -19,7 +19,7 @@ import (
 const _ = grpc.SupportPackageIsVersion7
 
 const (
-	Cluster_Cluster_FullMethodName = "/SilentsCloud.common.cluster.Cluster/Cluster"
+	Cluster_Cluster_FullMethodName = "/Silents.common.cluster.Cluster/Cluster"
 )
 
 // ClusterClient is the client API for Cluster service.
@@ -96,7 +96,7 @@ func _Cluster_Cluster_Handler(srv interface{}, ctx context.Context, dec func(int
 // It's only intended for direct use with grpc.RegisterService,
 // and not to be introspected or modified (even as a copy)
 var Cluster_ServiceDesc = grpc.ServiceDesc{
-	ServiceName: "SilentsCloud.common.cluster.Cluster",
+	ServiceName: "Silents.common.cluster.Cluster",
 	HandlerType: (*ClusterServer)(nil),
 	Methods: []grpc.MethodDesc{
 		{

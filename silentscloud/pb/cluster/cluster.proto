@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-package SilentsCloud.common.cluster;
+package Silents.common.cluster;
 
 option go_package = "./cluster";
 
